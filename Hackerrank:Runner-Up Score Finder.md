@@ -21,7 +21,15 @@ To write a Python program that takes a list of scores from participants and find
 ## 💻 PROGRAM:
 
 ADD CODE HERE
-
+~~~
+n = int(input())
+scores = list(map(int, input().split()))
+unique_scores = list(set(scores))
+unique_scores.sort()
+print(unique_scores[-2])
+~~~
 ## OUTPUT
+![442494324-1e2421e1-7869-4d14-a70c-54846c46bac0](https://github.com/user-attachments/assets/a835fc9b-607f-4f94-b582-cc4a228f310b)
 
 ## RESULT
+Thus,the program is executed successfully
